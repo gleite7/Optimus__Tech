@@ -1,0 +1,203 @@
+:root { 
+    --cor--principal: orangered;
+    --cor--secundaria: black;
+    --cor--fonte: white;
+    --cor--destaque: #667085; 
+}
+
+
+
+body { margin:0;
+      padding: 45px;}
+
+
+
+.header { width: 100%;
+            height: 80px;
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            
+            
+            }
+            
+            
+.container {
+             width: 100%;
+             height: 45px;
+             display: flex;
+             align-items: center;
+             flex-direction: row;
+             justify-content: space-between;
+               
+                            
+}
+
+
+
+
+.logo__nome  {display: flex;
+              align-items: center;
+              font-size:10px;
+              gap: 10px;
+        }
+
+.nav__menu { 
+    display: flex;
+    text-align: center;
+    font-weight: 500;
+}
+
+.list__menu { display: flex;
+    align-items: center;
+    text-decoration: none;
+    gap: 50px;
+}
+
+.login__cadastrar {  width: 207px;
+                    height: 44px;
+                    display: flex;
+                    flex-direction: row;
+                     align-items: center;
+                     justify-content:flex-end;
+                     gap: 30px;
+                     font-weight: 500;             
+}
+
+
+.botao__cadastrar { border:15px var(--cor--principal) solid;
+                    border-radius: 5px;
+                    text-align: center;
+                    align-items: center;
+                    padding: 0 15px;
+                    margin: 5;
+                background-color: var(--cor--principal) ; 
+                color:var(--cor--fonte);
+                font-weight: 500;
+            }
+
+
+.cabecalho { width: 100%;
+            height: 300px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 96px;}
+
+h2 { font-size: 16px;
+    color:var(--cor--principal);
+    }
+
+.titulo__cabecalho { 
+    font-size: 48px;
+    font-weight: 600;
+
+}
+
+.descricao__cabecalho { 
+    width: 791px;
+    height: 60px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.metricas { display: flex;
+            justify-content: space-between;
+            width: 100%;
+            height: 288px;
+        gap: 40px;}
+
+.container_metrica { display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    }
+
+.INmetrica { display: flex;
+            flex-direction: column;
+    align-items: center;}
+
+.subtitle__metrica {font-size: 18px;
+                    font-weight: 500;
+                    color: var(--cor--secundaria);
+                    font-weight:bold;
+                    }
+
+.titulo__metrica  { font-size: 60px;
+                    color: var(--cor--principal);
+                    
+                 }
+
+.parag__metrica { 
+                 font-size: 16px;
+                 font-weight: 400;
+                 
+}
+
+
+.titulo__vagas { width: 100% ;
+        height: 602px;
+        display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 96px;}
+
+
+.descricao__vagas { font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 64px;
+
+}
+
+.foto__vagas { width: 100%;
+                height: 400px;}
+
+.vagas { width: 100%;
+        height: 940px;}
+
+.design1 , .dev1 { font-size: 20px;
+            font-weight: 500; 
+            padding-bottom: 32px;
+            font-weight: bold;}
+
+.descvagas {font-size: 18px;
+            color: var(--cor--secundaria);
+             }
+.time__salario { display: flex;
+                gap: 24px;
+                color:var(--cor--destaque);
+                font-weight: 500;
+                font-size: 16px;}
+
+
+.vagas__abertas {margin: 140px; 
+                }
+
+.depoimentos { width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 96px;}
+
+.titulo__depoimentos {width: 70%;}
+
+.avatar {width: 56px;
+         height: 56px;
+        border-radius:50px}
+
+
+.rodape { width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 96px;}
+
+
+.email  {display: flex;
+        gap: 30px;
+        }
+input {border: var(--cor--secundaria) solid 2px;}
+
+.direitos { padding-top: 20px;}
+
